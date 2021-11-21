@@ -20,3 +20,15 @@ python manage.py runserver
 
 RODAR O SERVIDOR:
 ctrl + c.
+
+SENHA E NOME DO USUARIO:
+nome: diego
+senha: 1
+
+
+CRIAR TABELAS NO BANCO DE DADOS COM MIGRATE:
+python manage.py migrate.
+
+
+CRIAR UM SUPER USUARIO:
+python manage.py createsuper.
