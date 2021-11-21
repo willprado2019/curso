@@ -2,3 +2,10 @@ INICIAR O VIRTUAL ENV
 
 ir em aonde a pasta curso está, e depois entrar na pasta venv, depois entrar
 na pasta Scripts, ai digitar a palavra: activate
+
+MUDAR DE DIRETORIO:
+se usa o comando cd que significa change directory(mudar diretorio) ex:
+cd Documents.
+
+VOLTAR PASTAS EM UM DIRETORIO:
+usar o comando cd.. ex:  C:\Users\<nome de usuario>\Documents\curso\blog cd.. ficando assim: C:\Users\<nome de usuario>\Documents\curso
