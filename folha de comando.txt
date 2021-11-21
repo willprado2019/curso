@@ -1,0 +1,4 @@
+INICIAR O VIRTUAL ENV
+
+ir em aonde a pasta curso está, e depois entrar na pasta venv, depois entrar
+na pasta Scripts, ai digitar a palavra: activate
