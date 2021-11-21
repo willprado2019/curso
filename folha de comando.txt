@@ -1,4 +1,4 @@
-INICIAR O VIRTUAL ENV
+INICIAR O VIRTUAL ENV:
 
 ir em aonde a pasta curso está, e depois entrar na pasta venv, depois entrar
 na pasta Scripts, ai digitar a palavra: activate
@@ -9,3 +9,14 @@ cd Documents.
 
 VOLTAR PASTAS EM UM DIRETORIO:
 usar o comando cd.. ex:  C:\Users\<nome de usuario>\Documents\curso\blog cd.. ficando assim: C:\Users\<nome de usuario>\Documents\curso
+
+CRIAR PROJETO NO DJANGO:
+django-admin startproject <nome do projeto> 
+ex: django-admin startproject MeuSite.
+
+RODAR PROJETO NO DJANGO:
+python manage.py runserver
+
+
+RODAR O SERVIDOR:
+ctrl + c.
