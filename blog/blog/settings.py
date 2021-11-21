@@ -25,7 +25,7 @@ SECRET_KEY = '@rzo=lepm!6wqphua&hr05_82acxx=l#v7s#2y_smh7od=59qv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.meusite.com']
 
 
 # Application definition
