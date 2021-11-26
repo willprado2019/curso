@@ -32,3 +32,8 @@ python manage.py migrate.
 
 CRIAR UM SUPER USUARIO:
 python manage.py createsuper.
+
+
+CRIAR UM APP:
+python manage.py startapp <nome do app> 
+EX: python manage.py startapp MeuSite.
