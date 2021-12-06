@@ -11,3 +11,5 @@ class Post(models.Model):
 
     def full_name(self):
         return self.title + self.sub_title
+
+    full_name.admin_order_field = 'title'
