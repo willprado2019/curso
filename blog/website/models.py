@@ -16,8 +16,8 @@ class Post(models.Model):
         default=Categorias.GR
     )
 
-    approved = models.BooleanField(default=True)
-    
+    deleted = models.BooleanField(default=True)
+
     def __str__(self):
         return self.title
 
