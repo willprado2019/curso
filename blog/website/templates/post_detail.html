@@ -32,10 +32,11 @@
 					<section id="one">
 						<header class="major">
 							<h2>{{ post.title }}</h2>
+                            <h4>{{ post.sub_title }}</h4>
 						</header>
 						<p>{{ post.content }}</p>
 						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
+							<li><a href="{% url 'home_blog' %}" class="button">Voltar</a></li>
 						</ul>
 					</section>
 
