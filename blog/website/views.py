@@ -13,7 +13,7 @@ def hello_blog(request):
         'Systemctl'
     ]
 
-    list_posts = Post.objects.filter(deleted = False)
+    list_posts = Post.objects.all()
 
     data = {'name': 'Curso de Django 3',
     'lista_tecnologias': lista,
