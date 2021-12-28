@@ -17,6 +17,7 @@ class Post(models.Model):
     )
 
     deleted = models.BooleanField(default=True)
+    imagem = models.ImageField(upload_to='posts')
 
     def __str__(self):
         return self.title
