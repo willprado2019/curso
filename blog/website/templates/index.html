@@ -52,7 +52,7 @@
 								{% if post.imagem %}
 								<img src="{{ post.imagem.url }}" alt="" height="200px" width="400px">
 								{% else %}
-									<a href="images/fulls/01.jpg" class="image fit thumb"><img src=' {% static "images/thumbs/01.jpg" %} ' alt="" /></a>
+									<a href="images/fulls/01.jpg" class="image fit thumb"><img src=' {% static "images/thumbs/01.jpg" %} ' alt="" height='200px' width="400px" /></a>
 								{% endif %}
 								<h3>{{post.title}}</h3>
 								<p>{{ post.sub_title }}</p>
